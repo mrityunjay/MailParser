@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='mailContent.css'>
+    <script src='mailContent.js'></script>
+</head>
+<body style = " background-color: white">
+   
+    <div class = "mailContent">
+     
+        <h4 id="subject" style = "color:blue">Subject : <span style = "color:lightblue">(no subject)</span> </h4><br>
+        <h4 id = "sentTime" style = "color:blue">sent Time  <span style = "color:lightblue">12:00:11</span></h4><br>
+        <p id="content" style = "color:lightblue;align-content:right" >you have some order that is pending and will be updated soon</p><br>
+        <p id = "contentLine" style = "color:lightblue;align-content:right">you have some order that is pending and will be updated soon</p><br>
+        <h1 style = "font-family: bold" id="lableType" >under Progress <img src = "./img/untitled.png" id = "imgAdd" alt = "add" width="50" height="50"/></h1>
+        
+</div>
+<script>
+    function getMailContent(){
+        document.getElementById("subject").innerHTML = "Subject : (no subject)"
+        document.getElementById("sentTime").innerHTML = "sent Time  12:00:11";
+        document.getElementById("content").innerHTML = "you have some order that is pending and will be updated soon";
+        document.getElementById("contentLine").innerHTML = "we partially agree"
+        
+     
+    }
+
+    function addClick(){
+        var lableType = document.getElementById("lableType").value;
+
+    }
+</script>
+</body>
+</html>

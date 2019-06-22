@@ -1,0 +1,22 @@
+<ol>
+  <li *ngFor='let item of emailData'>
+   <a  (click)='listClicked(item)' class='marr0'> {{item}}</a>
+    <!-- <ul *ngIf='showorderlabels' >
+
+    </ul> -->
+  </li>
+  <!-- <li>
+     <p (click)='listClicked("Payment")' class='marr0'> Payment</p>
+     <ul *ngIf='paymentlabels'>
+       <li>urgent</li>
+       <li>Failed</li>
+     </ul>
+    </li> -->
+    <!-- <li>
+      <p (click)='listClicked("Purchase")' class='marr0'>  Purchase</p>
+      <ul *ngIf='showpurchaselabels'>
+          <li>urgent</li>
+          <li>Failed</li>
+        </ul>
+      </li> -->
+</ol>

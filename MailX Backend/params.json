@@ -1,0 +1,11 @@
+{
+  "DB_NAME": "mailx",
+  "DB_DRIVER": "SQL Server",
+  "DB_HOST": "localhost",
+  "DB_USER": "root",
+  "DB_PASS": "",
+  "CONN_STRING": "DRIVER=SQL Server;SERVER=localhost;DATABASE=test;Trusted Connection=yes;DATABASE=",
+  "MYSQL_CURSORCLASS": "DictCursor",
+  "DATA_SOURCE": "D:\\Users\\hvard\\PycharmProjects\\MailX\\data",
+  "OUTPUT_FOLDER": "D:\\Users\\hvard\\PycharmProjects\\MailX\\output"
+}
